@@ -1,20 +1,22 @@
 ---
-const { tema } = Astro.props;
+const { imagenSrc, tema } = Astro.props;
 ---
-<article class="relative overflow-hidden shadow transition hover:shadow-lg">
-    <img
-      alt=""
-      src="images/museo/divertido.jpg"
-      class="absolute inset-0 h-full w-full object-cover transition duration-1000"
+<article class="relative flex flex-col items-center justify-center max-w-[420px] transition duration-500 hover:scale-110">
+    <figure class="relative w-[450px] h-[280px]">
+      <img
+      alt={`imagen de ${tema}`}
+      src={`${imagenSrc}`}
+      class="object-contain w-full h-full transition duration-1000"
       transition:name={`img-${tema}`}
     />
+    </figure>
   
-    <div class="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+    <div class="w-full bg-amber-700 bg-opacity-90 rounded-b-2xl">
       <div class="p-4 sm:p-6">
         <time datetime="2022-10-10" class="block text-xs text-white/90"> 20 Marzo 2024 </time>
   
         <a href=`/${tema}`>
-          <h3 class="mt-0.5 text-lg text-white">Evento cultural</h3>
+          <h3 class="mt-0.5 text-lg text-gray-900">Evento cultural</h3>
         </a>
   
         <p class="mt-2 line-clamp-3 text-sm/relaxed text-white/95">

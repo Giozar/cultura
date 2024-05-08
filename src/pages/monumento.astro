@@ -3,14 +3,14 @@ import Layout from "../layouts/Layout.astro";
 const tema = Astro.url.pathname.replace('/','');
 ---
 
-<Layout title="Museo">
+<Layout title="Monumento">
     <section class="flex justify-center">
         <header class="max-w-6xl grid grid-cols-2">
             <figure class="w-full flex justify-center relative">
                 <img
-                    alt=""
-                    src="images/museo/divertido.jpg"
-                    class="h-1/2 w-full object-cover transition duration-1000"
+                    alt="imagen del castillo de chapultepec en la ciudad de méxico"
+                    src="images/monumento/Chapultepec_Castle_Mexico_City.webp"
+                    class="h-1/2 w-full object-scale-down transition duration-1000"
                     transition:name=`img-${tema}`
                 />
             </figure>

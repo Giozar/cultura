@@ -11,6 +11,24 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.6.2)(tailwindcss@3.4.3)
+  '@fontsource-variable/noto-serif':
+    specifier: ^5.0.6
+    version: 5.0.6
+  '@fontsource-variable/open-sans':
+    specifier: ^5.0.29
+    version: 5.0.29
+  '@fontsource-variable/playfair-display':
+    specifier: ^5.0.25
+    version: 5.0.25
+  '@fontsource-variable/roboto-slab':
+    specifier: ^5.0.20
+    version: 5.0.20
+  '@fontsource/poppins':
+    specifier: ^5.0.14
+    version: 5.0.14
+  '@fontsource/twinkle-star':
+    specifier: ^5.0.20
+    version: 5.0.20
   astro:
     specifier: ^4.6.2
     version: 4.6.2(typescript@5.4.5)
@@ -812,6 +830,30 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource-variable/noto-serif@5.0.6:
+    resolution: {integrity: sha512-SG+llg2fY8ODJY3XDOXYgcpRT3hObv6luSehW92c+n7m1JQpsudLNcjibykW5U4+JGHHTz0KP52ozDXe6FUTjA==}
+    dev: false
+
+  /@fontsource-variable/open-sans@5.0.29:
+    resolution: {integrity: sha512-p8T55iQwhErREcjY997t4ah9JKTyJNSBDDVfvVsWIQRGpA2fcTPk9rLue/Mkrr5/efkehxTSbT8JpTTRaFbM5A==}
+    dev: false
+
+  /@fontsource-variable/playfair-display@5.0.25:
+    resolution: {integrity: sha512-q8tzLiURtXycJQ27YoppTNCEe0W2ZRXIeZ25nH9KoM6fsbWYZAm9ItY0aRoL/jn/GllsEcTSm8H2UKa7l4AxDw==}
+    dev: false
+
+  /@fontsource-variable/roboto-slab@5.0.20:
+    resolution: {integrity: sha512-P+SYnhWntwbguWtOp9GkT3fDRN/E09NGNEBMCehhp+K+jctha00h7rn+G0IGJqUcifWZwEWBIFPFVy1ml8bjvQ==}
+    dev: false
+
+  /@fontsource/poppins@5.0.14:
+    resolution: {integrity: sha512-nmM1zpPo3Uh4JcGAVSQuWaZNYh2FbbwWhZ5t6hRaynmJaNTBW85d3nEh9zMmzI0HX7X5xqQVdRHeDatKpOGsnA==}
+    dev: false
+
+  /@fontsource/twinkle-star@5.0.20:
+    resolution: {integrity: sha512-kVuvs1ohuYOheEEWwwp/GsfGOnEML8W7GBcuo/iLk0GQs5sPVXcJalVjzeV11RIUiWTEg53rfVxhUIVG5v/xCQ==}
+    dev: false
 
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}

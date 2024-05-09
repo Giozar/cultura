@@ -1,7 +1,15 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ViewTransitions } from "astro:transitions";
+import "@fontsource/twinkle-star";
+import '@fontsource-variable/playfair-display';
+import '@fontsource-variable/roboto-slab';
+import '@fontsource-variable/open-sans';
+import '@fontsource/poppins';
+import '@fontsource-variable/noto-serif';
+
+
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
@@ -9,56 +17,74 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-		<ViewTransitions />
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <ViewTransitions />
+  </head>
+  <body>
+    <slot />
+  </body><style is:global>
+    :root {
+      --accent: 136, 58, 234;
+      --accent-light: 224, 204, 250;
+      --accent-dark: 49, 10, 101;
+      --accent-gradient: linear-gradient(
+        45deg,
+        rgb(var(--accent)),
+        rgb(var(--accent-light)) 30%,
+        white 60%
+      );
+    }
+    html {
+      font-family: system-ui, sans-serif;
+      background: #eeeeee;
+      background-size: 224px;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: system-ui, sans-serif;
+      background: linear-gradient(
+          rgba(121, 116, 89, 0.614),
+          rgba(232, 230, 221, 0.288)
+        ),
+        url("/images/background/castillo-dentro.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    code {
+      font-family:
+        Menlo,
+        Monaco,
+        Lucida Console,
+        Liberation Mono,
+        DejaVu Sans Mono,
+        Bitstream Vera Sans Mono,
+        Courier New,
+        monospace;
+    }
+    h1 {
+		font-family: 'Playfair Display Variable', serif;
+    }
+	h2 {
+		font-family: 'Roboto Slab Variable', serif;
+	}
+	h3 {
+		font-family: 'Open Sans Variable', sans-serif;
+	}
+	time {
+		font-family: 'Poppins', sans-serif;
+	}
+	p {
+		font-family: 'Noto Serif Variable', serif;
+	}
+  </style>
 </html>
-<style is:global>
-	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background: #eeeeee;
-		background-size: 224px;
-	}
-	body {
-		margin: 0;
-		padding: 0;
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	font-family: system-ui, sans-serif;
-		background: linear-gradient(rgba(121, 116, 89, 0.614), rgba(232, 230, 221, 0.288)), url('/images/background/castillo-dentro.jpg');
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
-</style>

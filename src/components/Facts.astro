@@ -1,11 +1,36 @@
 ---
-import Icon from "./Icon.astro";
-const {section, image} = Astro.props;
+import { Icon } from "astro-icon/components";
+
+const { id, section, icon } = Astro.props;
 ---
 
-<section class="h-80">
-    <button>
-        <Icon image=`${image}.png` />
-        <h3 class="text-center font-semibold text-2xl">{section}</h3>
-    </button>
+<section
+  class="bg-[#95876B] rounded-full font-sans font-semibold w-36 h-36 relative flex justify-center"
+>
+  <button id={id} class="w-full">
+    <Icon name={`mdi:${icon}`} class="w-10 h-10 m-auto right-0 left-0" />
+    <h3 class="font-semibold text-lg text-center">{section}</h3>
+  </button>
 </section>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    // Esto solo se ejecuta una vez.
+    const $btnHistoria = document.getElementById("btnHistoria");
+
+    $btnHistoria?.addEventListener("click", () => {
+      const $contenido = document.getElementById("contenido");
+      const $contenidoHistoria = document.getElementById("contenidoHistoria");
+
+      $contenido?.classList.add("hidden");
+
+      const $subtitulo = document.getElementById("subtitulo");
+
+      if ( $subtitulo ) {
+        $subtitulo.textContent = "Historia";
+      }
+
+        $contenidoHistoria?.classList.remove("hidden");
+    });
+  });
+</script>

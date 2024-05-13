@@ -5,11 +5,11 @@ const { id, section, icon } = Astro.props;
 ---
 
 <section
-  class="bg-[#95876B] rounded-full font-sans font-semibold w-36 h-36 relative flex justify-center"
+  class="bg-[#95876B] hover:bg-[#b2aa92] rounded-full font-sans font-semibold w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 relative flex justify-center"
 >
   <button id={id} class="w-full">
     <Icon name={`mdi:${icon}`} class="w-10 h-10 m-auto right-0 left-0" />
-    <h3 class="font-semibold text-lg text-center">{section}</h3>
+    <h3 class="font-semibold text-[8px] sm:text-xs md:text-sm text-center">{section}</h3>
   </button>
 </section>
 

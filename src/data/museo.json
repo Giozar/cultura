@@ -1,0 +1,40 @@
+{
+    "titulo": "Museo",
+    "tituloComplemento": "Museo de la Ciudad de México",
+    "contenido0": {
+        "titulo": "Introducción",
+        "parrafos": [
+            "El Museo Nacional de la Revolución se erige como un impresionante monumento en el corazón de la ciudad, invitando a los visitantes a sumergirse en la historia de la Revolución Mexicana. A través de sus tres salas de exposición, desde el museo de sitio hasta la exposición permanente, se desarrolla un fascinante viaje a través del tiempo y el espacio, revelando los secretos y héroes de este importante período histórico. En el centro del museo hay una serie de elementos escultóricos que rinden homenaje a la esfera, que simboliza la resistencia, y una colección de más de 3.300 objetos cuenta la historia de la lucha de México por la justicia y la libertad.Este santuario histórico ofrece a los visitantes una experiencia inmersiva y educativa, donde cada rincón está lleno de recuerdos y legados de quienes dieron forma al destino de la nación."
+        ]
+    },
+    "contenido1": {
+        "titulo": "Historia",
+        "parrafos": [
+            "El Castillo de Chapultepec nos deslumbra con una fascinante historia que abarca varios siglos y refleja importantes eventos en sus muros y ubicación.",
+            "En el comienzo tierras sagrados de nuestros antepasados eran, las cuales contenian un templo, pequeño refugio y lugar de descanso para sus gobernantes mexicas, honrradores de sus dioses y de la tierra que los vio nacer.",
+            "Con la llegada de los conquistadores españoles, en un periodo que llamamos colonial, el sagrado cerro fue testigo de su nueva etapa como un pequeño palacio de recreo, al ser adoptado por la corona, pero el siglo XIX este no olvida, que en medio delFragor de la locha por la independencia mexicana termino dañado y abandonado por años."
+        ]
+    },
+    "contenido2": {
+        "titulo": "Significado",
+        "parrafos": [
+            "Tiene un papel como simbolo de la historia e identidad de Mexico, su valor como patrimonio arquitectonico y su contribusion a la educacion y la difusión de Ia cultura en el pais.",
+            "Simbolo de la soberania nacional.",
+            "Patrimonio historico y arquitectonico.",
+            "Museo nacional de Historia",
+            "Espacio cultural y educativo"
+        ]
+    },
+    "contenido3": {
+        "titulo": "Caracteristicas",
+        "parrafos": [
+            "El Castillo de Chapultepec, ubicado en la Ciudad de México, es un monumento histórico de gran importancia debido a varias características:",
+    "Antigüedad: Su construcción se remonta al siglo XVIII, cuando fue erigido como residencia de descanso para los virreyes de la Nueva España. Posteriormente, fue utilizado como colegio militar, y finalmente como sede del Colegio Militar y residencia presidencial.",
+    "Significado histórico: El castillo ha sido testigo de diversos momentos trascendentales en la historia de México. Desde la época prehispánica, cuando el sitio era utilizado como refugio, hasta la época colonial y la Independencia de México, donde fue escenario de importantes acontecimientos.",
+    "Arquitectura: Su arquitectura mezcla estilos como el neoclásico y el barroco, reflejando las influencias culturales y estilísticas de diferentes épocas en México.",
+    "Función como museo: Desde 1944, el Castillo de Chapultepec alberga el Museo Nacional de Historia, que exhibe una vasta colección de arte, objetos históricos y documentos relacionados con la historia de México, desde la época prehispánica hasta la actualidad.",
+    "Símbolo nacional: El castillo es considerado un símbolo de la soberanía y la historia de México, y su imagen ha sido utilizada en diversos contextos culturales y políticos para representar al país."
+        ]
+    },
+    "imagen": "museo/estatuas"
+}

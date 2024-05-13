@@ -1,29 +1,35 @@
 ---
+import Content from "../components/Content.astro";
 import Layout from "../layouts/Layout.astro";
 const tema = Astro.url.pathname.replace('/','');
 ---
 
 <Layout title="Monumento">
-    <section class="flex justify-center">
-        <header class="max-w-6xl grid grid-cols-2">
-            <figure class="w-full flex justify-center relative">
-                <img
-                    alt="imagen del castillo de chapultepec en la ciudad de méxico"
-                    src="images/monumento/Chapultepec_Castle_Mexico_City.webp"
-                    class="h-1/2 w-full object-scale-down transition duration-1000"
-                    transition:name=`img-${tema}`
-                />
-            </figure>
-            <h1 class="font-medium text-pretty text-2xl flex justify-center relative"
-            transition:animate="slide"
-            >
-                <strong>Monumento</strong>
-                Castillo Chapultepec
-            </h1>
-        </header>
-
-        <section>
-            <h2>Introducción</h2>
-        </section>
-    </section>
+    <Content
+    titulo="Monumento", 
+    tituloComplemento="Castillo de Chapultepec",
+    seccion1="Historia",
+    seccion2="Significado",
+    seccion3="Características",
+    introduccion={[
+        "El Castillo de Chapultepec es un edificio histórico ubicado en lo alto del cerro del mismo nombre, en el centro del Bosque de Chapultepec, en la Ciudad de México. Fue construido por el virrey Bernardo de Gálvez y Madrid sobre el cerro del Chapulín, en tiempos de la Nueva España, para ser la residencia del virrey. Desde entonces ha tenido varios usos, como ser Colegio Militar, residencia imperial, residencia presidencial, museo, sede de la Escuela Nacional Preparatoria, entre otros.",
+        "El edificio es un ejemplo de la arquitectura virreinal mexicana. En su interior se conservan numerosas obras de arte y decoraciones de la época. En la actualidad es un museo administrado por el Instituto Nacional de Antropología e Historia, que lo mantiene abierto al público para su visita. Es uno de los museos más importantes de México y uno de los más visitados en el mundo."
+    ]},
+    contenido1={[
+      "Es el contenido 1 1",
+      "Es el contenido 1 2",
+      "Es el contenido 1 3"
+    ]},
+    contenido2={[
+      "Es el contenido 2 1",
+      "Es el contenido 2 2",
+      "Es el contenido 2 3"
+    ]},
+    contenido3={[
+      "Es el contenido 3 1",
+      "Es el contenido 3 2",
+      "Es el contenido 3 3"
+    ]},
+    imagen=`${tema}/angulo` 
+  />
 </Layout>

@@ -1,29 +1,36 @@
 ---
+import Content from "../components/Content.astro";
 import Layout from "../layouts/Layout.astro";
 const tema = Astro.url.pathname.replace('/','');
 ---
 
-<Layout title="Museo">
-    <section class="flex justify-center">
-        <header class="max-w-6xl grid grid-cols-2">
-            <figure class="w-full flex justify-center relative">
-                <img
-                    alt="imagen de evento"
-                    src="images/evento/evento.jpg"
-                    class="h-1/2 w-full object-cover transition duration-1000"
-                    transition:name=`img-${tema}`
-                />
-            </figure>
-            <h1 class="font-medium text-pretty text-2xl flex justify-center relative"
-            transition:animate="slide"
-            >
-                <strong>Monumento</strong>
-                Castillo Chapultepec
-            </h1>
-        </header>
-
-        <section>
-            <h2>Introducción</h2>
-        </section>
-    </section>
+<Layout title="Evento">
+    <Content
+    titulo="Evento cultural", 
+    tituloComplemento="Feria de libro",
+    seccion1="Historia",
+    seccion2="Significado",
+    seccion3="Características",
+    introduccion={[
+        "Es un evento cultural que se realiza en la ciudad de México.",
+        "Es una feria de libro que se realiza en el mes de octubre.",
+        "Es un evento que reúne a escritores, editores y lectores."
+    ]},
+    contenido1={[
+      "Es el contenido 1 1",
+      "Es el contenido 1 2",
+      "Es el contenido 1 3"
+    ]},
+    contenido2={[
+      "Es el contenido 2 1",
+      "Es el contenido 2 2",
+      "Es el contenido 2 3"
+    ]},
+    contenido3={[
+      "Es el contenido 3 1",
+      "Es el contenido 3 2",
+      "Es el contenido 3 3"
+    ]},
+    imagen=`${tema}/feria` 
+  />
 </Layout>

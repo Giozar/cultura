@@ -16,21 +16,50 @@ const { id, section, icon } = Astro.props;
 <script>
   document.addEventListener("astro:page-load", () => {
     // Esto solo se ejecuta una vez.
-    const $btnHistoria = document.getElementById("btnHistoria");
+    const $btnContenido1 = document.getElementById("btnContenido1");
+    const $btnContenido2 = document.getElementById("btnContenido2");
+    const $btnContenido3 = document.getElementById("btnContenido3");
 
-    $btnHistoria?.addEventListener("click", () => {
-      const $contenido = document.getElementById("contenido");
-      const $contenidoHistoria = document.getElementById("contenidoHistoria");
+    $btnContenido1?.addEventListener("click", () => {
 
-      $contenido?.classList.add("hidden");
+      const $contenido0 = document.getElementById("contenido0");
+      const $contenido1 = document.getElementById("contenido1");
+      const $contenido2 = document.getElementById("contenido2");
+      const $contenido3 = document.getElementById("contenido3");
 
-      const $subtitulo = document.getElementById("subtitulo");
 
-      if ( $subtitulo ) {
-        $subtitulo.textContent = "Historia";
-      }
-
-        $contenidoHistoria?.classList.remove("hidden");
+      $contenido0?.classList.add("hidden");
+      $contenido2?.classList.add("hidden");
+      $contenido3?.classList.add("hidden");
+      $contenido1?.classList.remove("hidden");
     });
+
+    $btnContenido2?.addEventListener("click", () => {
+      
+      const $contenido0 = document.getElementById("contenido0");
+      const $contenido1 = document.getElementById("contenido1");
+      const $contenido2 = document.getElementById("contenido2");
+      const $contenido3 = document.getElementById("contenido3");
+
+      $contenido0?.classList.add("hidden");
+      $contenido1?.classList.add("hidden");
+      $contenido3?.classList.add("hidden");
+      $contenido2?.classList.remove("hidden");
+    });
+
+    $btnContenido3?.addEventListener("click", () => {
+      
+      const $contenido0 = document.getElementById("contenido0");
+      const $contenido1 = document.getElementById("contenido1");
+      const $contenido2 = document.getElementById("contenido2");
+      const $contenido3 = document.getElementById("contenido3");
+
+      $contenido0?.classList.add("hidden");
+      $contenido1?.classList.add("hidden");
+      $contenido2?.classList.add("hidden");
+      $contenido3?.classList.remove("hidden");
+    });
+
+    
   });
 </script>

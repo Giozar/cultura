@@ -6,9 +6,12 @@ const { titulo, parrafos } = Astro.props;
       {titulo}:
     </h2>
 
-    {
-      parrafos.map((parrafo: string, index: number) => (
-        <p>{parrafo}</p>
-      ))
-    }
+    <div class="space-y-5">
+        {
+            parrafos.map((parrafo: string, index: number) => (
+              <p>{parrafo}</p>
+            ))
+          }
+    </div>
+
   </div>

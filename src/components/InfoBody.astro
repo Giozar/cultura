@@ -1,0 +1,13 @@
+---
+import ImagePicture from "./ImagePicture.astro";
+import Info from "./Info.astro";
+
+const { contenido, estilo } = Astro.props;
+---
+<section 
+id={contenido.id}
+class=`text-[#e5e3dc] grid sm:grid-cols-2 ${estilo} justify-items-center text-pretty font-serif text-lg font-medium space-y-4 overflow-hidden` >
+    <Info titulo={contenido.titulo} parrafos={contenido.parrafos} />
+    <ImagePicture imagen={contenido.imagen} />
+
+</section>

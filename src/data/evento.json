@@ -3,21 +3,26 @@
     "tituloComplemento": "Gran Remate de Libros y Películas en el Monumento a la Revolución",
     "contenido0": {
         "titulo": "Introducción",
+        "id": "contenido0",
         "parrafos": [
             "Encontrados en el imponente Monumento a la Revolución, donde las sombras del pasado bailan al compás de las palabras impresas, pase una tarde envuelta en el misterio y la magia literaria, donde los estantes rebosan de historias esperando ser descubiertas, desde cuentos que despiertan la imaginación hasta intrincadas tramas de novelas negras que te atrapan en su enigma.",
             "Entre los pasillos de la feria, los autores locales brillan con luz propia, sus historias tejen la tela de la cultura y la identidad de la tierra que los vio nacer. El ambiente está impregnado de emoción y camaradería, donde los amantes de la lectura se reúnen para compartir su pasión, para al final del día, cargar tus tesoros entre los brazos, ansioso por sumergirte en las páginas que te esperan. Ha sido una experiencia fantástica y divertida, donde los libros se convirtieron en magos que te transportaron a mundos inimaginables."
-          ]
+          ],
+          "imagen": "evento/evento"
     },
     "contenido1": {
+        "id": "contenido1",
         "titulo": "Experiencia",
         "parrafos": [
             "Fue un día soleado en el Monumento a la Revolución, donde los pasillos se convierten en senderos literarios llenos de sorpresas. Desde temprano, me aventuré entre los estantes rebosantes de libros, cada uno contando su propia historia y esperando ser descubierto. Los precios variaban como los colores de un arcoíris, dependiendo el tipo de lecturas que encontraras, había desde libros de bolsillo hasta historietas y mangas, la mayoría de ellos siendo más antiguos de lo que yo podría recordar, pero algunos otros que brillaron para mí, fueron las historias de independientes autores las cuales fueron un mundo completamente nuevo que descubrir; algo que siempre permaneció en el aire fue el entusiasmo por encontrar la mejor oferta, se palpaba en el aire.",
             "Mientras recorría la explanada del monumento, me encontré con escenas dignas de una pintura: niños jugando en la fuente, por ser semana santa, habia parejas paseando de la mano y grupos de amigos debatiendo sobre qué libro llevarse a casa. La energía era contagiosa, y me sumergí en ella mientras exploraba cada rincón.",
             "El tiempo pasó volando entre charlas con vendedores apasionados y curiosos encuentros con otros amantes de la lectura. Desde las primeras luces del día hasta la tarde, me dejé llevar por la magia del lugar y la emoción de descubrir nuevos tesoros literarios.",
             "Finalmente, con el sol descendiendo en el horizonte y una bolsa llena de libros entre mis manos, me despedí del Monumento a la Revolución con el corazón lleno de gratitud y la mente ansiosa por sumergirse en las páginas que tenía ante mí. Fue una experiencia inolvidable, donde cada paso fue un nuevo capítulo en una historia llena de emoción y descubrimiento."
-          ]
+          ],
+          "imagen": "evento/feria"
     },
     "contenido2": {
+        "id": "contenido2", 
         "titulo": "Recomendaciones",
         "parrafos": [
             "Investigues con anticipación: Antes de ir al remate, averigua qué tipo de libros estarán disponibles y si hay algún tema, editorial o autor en particular que te interese.",
@@ -25,9 +30,11 @@
             "Explora todos los estantes: Tómate tu tiempo para recorrer todos los estantes y explorar cada sección. A veces los tesoros están escondidos.",
             "Mantén un presupuesto: Es fácil emocionarse y comprar más de lo planeado en un remate de libros, así que establece un presupuesto antes de ir y trata de ceñirte a él para evitar gastos excesivos.",
             "Disfruta del ambiente: Los remates de libros suelen ser eventos animados y llenos de energía, así que tómate un momento para disfrutar del ambiente, charlar con otros asistentes y sumergirte en la experiencia."
-          ]
+          ],
+          "imagen": "evento/panorama"
     },
     "contenido3": {
+        "id": "contenido3",
         "titulo": "Caracteristicas",
         "parrafos": [
             "El 17º Gran Remate de Libros y Películas, fue organizado por la Secretaría de Cultura de la Ciudad de México y la Brigada Para Leer en Libertad AC:",
@@ -36,7 +43,7 @@
             "Lema y objetivo: Se presento bajo el lema 'Salva un libro, no dejes que lo destruyan', el evento busca rescatar libros que no se han vendido en librerías y que corren el riesgo de ser destruidos. Además, tiene como objetivo promover la lectura y el acceso a libros y películas a precios accesibles.",
             "Oferta: Los libros, discos y películas estarán disponibles a precios desde los 10 hasta los 150 pesos, ofreciendo una amplia gama de géneros y formatos para todos los gustos.",
             "Experiencia: El remate promete ser un espacio para ávidos lectores, amantes del cine y la música, así como para nuevas y curiosas mentes en el hábito de la lectura. Además, contará con actividades que fomentan el diálogo entre escritores y lectores."
-          ]
-    },
-    "imagen": "evento/feria"
+          ],
+            "imagen": "evento/ignaguracion"
+    }
 }

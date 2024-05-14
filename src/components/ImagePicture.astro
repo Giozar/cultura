@@ -1,0 +1,11 @@
+---
+const { imagen } = Astro.props
+---
+<figure class="max-h-[700px] w-3/4">
+    <img
+      alt="imagen de museo revolucion"
+      src={`images/${imagen}.jpg`}
+      class="h-full w-full object-cover transition duration-1000 rounded-2xl"
+      transition:name=`img-${imagen}`
+    />
+  </figure>

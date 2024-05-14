@@ -2,12 +2,15 @@
     "titulo": "Museo",
     "tituloComplemento": "Museo de la Ciudad de México",
     "contenido0": {
+        "id": "contenido0",
         "titulo": "Introducción",
         "parrafos": [
             "El Museo Nacional de la Revolución se erige como un impresionante monumento en el corazón de la ciudad, invitando a los visitantes a sumergirse en la historia de la Revolución Mexicana. A través de sus tres salas de exposición, desde el museo de sitio hasta la exposición permanente, se desarrolla un fascinante viaje a través del tiempo y el espacio, revelando los secretos y héroes de este importante período histórico. En el centro del museo hay una serie de elementos escultóricos que rinden homenaje a la esfera, que simboliza la resistencia, y una colección de más de 3.300 objetos cuenta la historia de la lucha de México por la justicia y la libertad.Este santuario histórico ofrece a los visitantes una experiencia inmersiva y educativa, donde cada rincón está lleno de recuerdos y legados de quienes dieron forma al destino de la nación."
-        ]
+        ],
+        "imagen": "museo/estatuas"
     },
     "contenido1": {
+        "id": "contenido1",
         "titulo": "Experiencia",
         "parrafos": [
             "Visitar el Museo Nacional de la Revolución fue como embarcarse en un viaje a través de los turbulentos y emocionantes momentos de la Revolución Mexicana Desde el momento en que puse un pie dentro del majestuoso edificio, quedé inmerso en un mundo donde la historia cobraba vida de una manera deslumbrante y cautivadora.",
@@ -16,17 +19,21 @@
             "A través de ocho salas temáticas y cronológicas, fui testigo de la evolución del Estado mexicano, desde la consolidación hasta el periodo del cardenismo. Las herramientas didácticas, como las estaciones interactivas y las pantallas con material fílmico de la época, hicieron que la historia se materializara frente a mis ojos, haciéndome sentir parte de cada acontecimiento crucial.",
             "Y, por supuesto, no puedo pasar por alto la colección de más de 3,300 objetos expuestos en las vitrinas del museo. Cada uno contaba una historia, desde armas de fuego hasta utensilios cotidianos, proporcionando una visión completa y detallada del periodo revolucionario.",
             "Explorar las entrañas de esta fascinante estructura, testigo mudo de la historia, me permitió contemplar una pequeña parte de la grandeza que ha moldeado el México que conocemos hoy. Al salir del museo, mi espíritu se encontraba saciado, lleno de la luz del conocimiento recién adquirido, como un faro brillante guiándome hacia un entendimiento más profundo de mi propia identidad nacional."
-          ]
+          ],
+        "imagen": "museo/vestimenta"
     },
     "contenido2": {
+        "id": "contenido2",
         "titulo": "Recomendaciones",
         "parrafos": [
             "Explora todas las áreas: El museo cuenta con varias áreas de exhibición, como el Museo de Sitio, la Sala de Exposiciones Temporales y la Exposición Permanente. Asegúrate de explorar todas estas áreas para obtener una experiencia completa y variada.",
             "Tómate el tiempo necesario:  Para leer las descripciones de las exhibiciones, observar detenidamente los objetos expuestos y disfrutar de cada detalle. Esto te permitirá absorber más información y disfrutar plenamente de la experiencia.",
             "Monumento a la revolución: No solo contemples el interior del museo, date la oportunidad de apreciar el monumento que se encuentra en el exterior y si tienes oportunidad sube al mirador que posee unas maravillosas vistas de la ciudad de México."
-          ]
+          ],
+        "imagen": "museo/arquitectura"
     },
     "contenido3": {
+        "id": "contenido3",
         "titulo": "Características",
         "parrafos": [
             "Ubicado en el sótano del Monumento a la Revolución, símbolo arquitectónico de la Ciudad de México, alberga las criptas de personajes nacionales como Villa, Madero, Carranza y Cárdenas.",
@@ -34,7 +41,7 @@
             "Objetivo: ser un instrumento didáctico para enseñar la historia de México en diversos niveles educativos.",
             "Tres salas permanentes: 'De la República triunfante al ocaso de la dictadura (1867-1906)', 'En defensa de la libertad y la democracia (1906-1913)' y 'La lucha popular (1913-1917)'. En donde se exhibe documentos, fotografías, mapas, gráficas, facsímiles, audiograbaciones, videos y objetos relacionados con la Revolución.",
             "Cuenta con sala para exposiciones temporales y biblioteca, además de ofrecer visitas guiadas y préstamo de exposiciones itinerantes."
-          ]
-    },
-    "imagen": "museo/estatuas"
+          ],
+        "imagen": "museo/economia"
+    }
 }

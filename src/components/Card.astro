@@ -2,6 +2,7 @@
 const { imagenSrc, tema } = Astro.props;
 ---
 <article class="relative flex flex-col items-center justify-center max-w-[420px] transition duration-500 hover:scale-110">
+  <a href=`/${tema}`>
     <figure class="relative max-w-[450px] max-h-[280px]">
       <img
       alt={`imagen de ${tema}`}
@@ -15,13 +16,12 @@ const { imagenSrc, tema } = Astro.props;
       <div class="p-4 sm:p-6">
         <time datetime="2022-10-10" class="block text-xs text-white/90"> 20 Marzo 2024 </time>
   
-        <a href=`/${tema}`>
           <h3 class="mt-0.5 text-lg text-gray-900">Evento cultural</h3>
-        </a>
-  
-        <p class="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
-          Aquí irá una pequeña descripción del evento cultural
-        </p>
+          
+          <p class="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
+            Aquí irá una pequeña descripción del evento cultural
+          </p>
       </div>
     </div>
-  </article>
+  </a>
+</article>

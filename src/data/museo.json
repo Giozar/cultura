@@ -8,33 +8,33 @@
         ]
     },
     "contenido1": {
-        "titulo": "Historia",
+        "titulo": "Experiencia",
         "parrafos": [
-            "El Castillo de Chapultepec nos deslumbra con una fascinante historia que abarca varios siglos y refleja importantes eventos en sus muros y ubicación.",
-            "En el comienzo tierras sagrados de nuestros antepasados eran, las cuales contenian un templo, pequeño refugio y lugar de descanso para sus gobernantes mexicas, honrradores de sus dioses y de la tierra que los vio nacer.",
-            "Con la llegada de los conquistadores españoles, en un periodo que llamamos colonial, el sagrado cerro fue testigo de su nueva etapa como un pequeño palacio de recreo, al ser adoptado por la corona, pero el siglo XIX este no olvida, que en medio delFragor de la locha por la independencia mexicana termino dañado y abandonado por años."
-        ]
+            "Visitar el Museo Nacional de la Revolución fue como embarcarse en un viaje a través de los turbulentos y emocionantes momentos de la Revolución Mexicana Desde el momento en que puse un pie dentro del majestuoso edificio, quedé inmerso en un mundo donde la historia cobraba vida de una manera deslumbrante y cautivadora.",
+            "Comencé mi recorrido en el Museo de Sitio, donde quedé maravillado al contemplar las distintas etapas constructivas del Palacio Legislativo, un testimonio tangible de la historia arquitectónica del país.",
+            "Después, me sumergí en la Sala de Exposiciones Temporales, donde me sorprendió la variedad de muestras que complementaban mi comprensión del movimiento armado de 1910. Desde artefactos históricos hasta representaciones artísticas contemporáneas, cada pieza añadía una capa más profunda a mi apreciación del contexto histórico.",
+            "A través de ocho salas temáticas y cronológicas, fui testigo de la evolución del Estado mexicano, desde la consolidación hasta el periodo del cardenismo. Las herramientas didácticas, como las estaciones interactivas y las pantallas con material fílmico de la época, hicieron que la historia se materializara frente a mis ojos, haciéndome sentir parte de cada acontecimiento crucial.",
+            "Y, por supuesto, no puedo pasar por alto la colección de más de 3,300 objetos expuestos en las vitrinas del museo. Cada uno contaba una historia, desde armas de fuego hasta utensilios cotidianos, proporcionando una visión completa y detallada del periodo revolucionario.",
+            "Explorar las entrañas de esta fascinante estructura, testigo mudo de la historia, me permitió contemplar una pequeña parte de la grandeza que ha moldeado el México que conocemos hoy. Al salir del museo, mi espíritu se encontraba saciado, lleno de la luz del conocimiento recién adquirido, como un faro brillante guiándome hacia un entendimiento más profundo de mi propia identidad nacional."
+          ]
     },
     "contenido2": {
-        "titulo": "Significado",
+        "titulo": "Recomendaciones",
         "parrafos": [
-            "Tiene un papel como simbolo de la historia e identidad de Mexico, su valor como patrimonio arquitectonico y su contribusion a la educacion y la difusión de Ia cultura en el pais.",
-            "Simbolo de la soberania nacional.",
-            "Patrimonio historico y arquitectonico.",
-            "Museo nacional de Historia",
-            "Espacio cultural y educativo"
-        ]
+            "Explora todas las áreas: El museo cuenta con varias áreas de exhibición, como el Museo de Sitio, la Sala de Exposiciones Temporales y la Exposición Permanente. Asegúrate de explorar todas estas áreas para obtener una experiencia completa y variada.",
+            "Tómate el tiempo necesario:  Para leer las descripciones de las exhibiciones, observar detenidamente los objetos expuestos y disfrutar de cada detalle. Esto te permitirá absorber más información y disfrutar plenamente de la experiencia.",
+            "Monumento a la revolución: No solo contemples el interior del museo, date la oportunidad de apreciar el monumento que se encuentra en el exterior y si tienes oportunidad sube al mirador que posee unas maravillosas vistas de la ciudad de México."
+          ]
     },
     "contenido3": {
-        "titulo": "Caracteristicas",
+        "titulo": "Características",
         "parrafos": [
-            "El Castillo de Chapultepec, ubicado en la Ciudad de México, es un monumento histórico de gran importancia debido a varias características:",
-    "Antigüedad: Su construcción se remonta al siglo XVIII, cuando fue erigido como residencia de descanso para los virreyes de la Nueva España. Posteriormente, fue utilizado como colegio militar, y finalmente como sede del Colegio Militar y residencia presidencial.",
-    "Significado histórico: El castillo ha sido testigo de diversos momentos trascendentales en la historia de México. Desde la época prehispánica, cuando el sitio era utilizado como refugio, hasta la época colonial y la Independencia de México, donde fue escenario de importantes acontecimientos.",
-    "Arquitectura: Su arquitectura mezcla estilos como el neoclásico y el barroco, reflejando las influencias culturales y estilísticas de diferentes épocas en México.",
-    "Función como museo: Desde 1944, el Castillo de Chapultepec alberga el Museo Nacional de Historia, que exhibe una vasta colección de arte, objetos históricos y documentos relacionados con la historia de México, desde la época prehispánica hasta la actualidad.",
-    "Símbolo nacional: El castillo es considerado un símbolo de la soberanía y la historia de México, y su imagen ha sido utilizada en diversos contextos culturales y políticos para representar al país."
-        ]
+            "Ubicado en el sótano del Monumento a la Revolución, símbolo arquitectónico de la Ciudad de México, alberga las criptas de personajes nacionales como Villa, Madero, Carranza y Cárdenas.",
+            "Proyecto de instalación datado en 1936, materializado en 1986 bajo la supervisión de la historiadora Eugenia Meyer y el arquitecto Jorge Bribiesca. Inaugurado el 20 de noviembre de 1986, reinaugurado en 2002 tras una remodelación de tres meses.",
+            "Objetivo: ser un instrumento didáctico para enseñar la historia de México en diversos niveles educativos.",
+            "Tres salas permanentes: 'De la República triunfante al ocaso de la dictadura (1867-1906)', 'En defensa de la libertad y la democracia (1906-1913)' y 'La lucha popular (1913-1917)'. En donde se exhibe documentos, fotografías, mapas, gráficas, facsímiles, audiograbaciones, videos y objetos relacionados con la Revolución.",
+            "Cuenta con sala para exposiciones temporales y biblioteca, además de ofrecer visitas guiadas y préstamo de exposiciones itinerantes."
+          ]
     },
     "imagen": "museo/estatuas"
 }
